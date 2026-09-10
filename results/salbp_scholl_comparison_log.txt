@@ -1,0 +1,17 @@
+============================================================
+NVIDIA cuOpt SALBP-1 Benchmark Comparison Report
+============================================================
+Dataset Instance: SCHOLL.IN2 (Total Tasks: 297)
+Evaluated Cycle Time (C): 1400
+Solver Status: Optimal
+cuOpt Solve Time: 1.7497 seconds
+cuOpt Workstations Required (m): 49
+Literature Benchmark Value: 45 workstations
+------------------------------------------------------------
+Resource Utilization Profile:
+Host RAM Usage: 1.03 GB (Peak Delta: +0.48 GB)
+GPU VRAM Usage: 0.61 GB
+CPU Utilization: 119.8%
+------------------------------------------------------------
+Comparison Result: Difference of 4 workstation(s) vs literature.
+============================================================

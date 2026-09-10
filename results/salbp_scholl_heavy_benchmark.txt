@@ -1,0 +1,53 @@
+Parsing benchmark precedence graph: Scholl_dataset/precedence graphs/SCHOLL.IN2
+Successfully loaded 297 tasks and 423 precedence constraints.
+Loading benchmark parameter suite from: Scholl_dataset/SALBP data sets.xlsx
+Identified 26 instances for Scholl-297.
+
+===================================================================================================================
+Cycle Time  Lit m*    cuOpt m   Diff    Status      Time(s)   CPU(%)    RAM(GB)   VRAM(GB)  
+===================================================================================================================
+1394        50        49        -1      Optimal     5.59      0.0       1.14      10.37     
+1422        50        48        -2      Optimal     8.02      0.0       1.19      9.75      
+1452        48        47        -1      Optimal     9.16      0.0       1.17      9.52      
+1483        47        46        -1      Optimal     8.21      0.0       1.23      9.80      
+1515        46        45        -1      Optimal     8.45      0.0       1.21      9.65      
+1548        46        45        -1      Optimal     8.07      0.0       1.20      8.77      
+1584        44        43        -1      Optimal     7.72      0.0       1.17      9.40      
+1620        44        43        -1      Optimal     8.80      0.0       1.21      9.49      
+1659        42        41        -1      Optimal     8.68      0.0       1.12      9.71      
+1699        42        41        -1      Optimal     8.80      0.0       1.14      9.51      
+1742        40        39        -1      Optimal     8.30      0.0       1.19      9.98      
+1787        39        38        -1      Optimal     8.90      0.0       1.17      9.50      
+1834        38        37        -1      Optimal     7.45      0.0       1.18      13.45     
+1883        37        36        -1      Optimal     8.53      0.0       1.15      8.77      
+1935        36        36        0       Optimal     8.61      0.0       1.14      9.47      
+1991        35        34        -1      Optimal     8.23      0.0       1.18      8.77      
+2049        34        33        -1      Optimal     8.90      0.0       1.20      8.77      
+2111        33        33        0       Optimal     8.23      0.0       1.18      9.55      
+2177        32        32        0       Optimal     7.98      0.0       1.23      9.51      
+2247        31        31        0       Optimal     7.64      0.0       1.17      9.71      
+2322        30        30        0       Optimal     8.19      0.0       1.19      9.71      
+2402        29        29        0       Optimal     7.23      0.0       1.17      9.71      
+2488        28        27        -1      Optimal     7.59      0.0       1.19      8.77      
+2580        27        27        0       Optimal     7.79      0.0       1.18      9.97      
+2680        26        25        -1      Optimal     8.33      0.0       1.23      8.77      
+2787        25        24        -1      Optimal     8.30      0.0       1.22      8.77      
+===================================================================================================================
+GLOBAL EXECUTION & RESOURCE SUMMARY:
+Total Wall-Clock Time:    16.71 seconds (0.28 minutes)
+Peak System RAM Usage:    31.24 GB (Aggregated across active processes)
+Peak GPU VRAM Usage:      13.45 GB
+Average CPU Util:         53.5%
+Average GPU Util:         29.7%
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+TOTAL COMPUTATION EXPENDITURE:
+Cumulative CPU Work:      179.59 Core-Seconds (0.0499 Core-Hours)
+Cumulative GPU Work:      4.16 GPU-Seconds (0.0012 GPU-Hours)
+- - - - - - - - - - - - - - - - - - - - - - - - - - - -
+SOLVER & BATCHING CONFIGURATION:
+Formulation Bounding:     Unconstrained (max_stations = N = 297)
+Parallel CPU Probing:     Enabled (mip_probing = True, num_cpu_threads = 16)
+GPU Concurrent Batching:  Enabled (ProcessPoolExecutor max_workers = 26)
+Instance Time Limit:      180 seconds
+MIP Relative Gap Target:  0.01
+===================================================================================================================
